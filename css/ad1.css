@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+div#wapper{
+	padding:300px 0 300px 0;
+	text-align:center;
+}
+p{
+	color:red;
+	font-size:24px;
+}
+a#ad{
+	display:blue;
+	font-size:18px;
+	text-decoration:none;
+	color:black;
+}
+nav{
+	margin-top:200px;
+}
+nav a{
+	color:#333;
+	text-decoration:none;
+}

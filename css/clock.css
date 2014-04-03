@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+#wapper{
+	text-align:center;
+	width:100%;
+}
+#header{
+	width:50px;
+	height:50px;
+	display:block;
+	position:fixed;
+	top:0px;
+	left:0px;
+	background:#FF9;
+}
+#header a{
+	font-size: 50px;
+	color: #963;
+	display:block;
+}
+@-moz-keyframes shake
+{
+	from{-moz-transform:rotate(0deg);}
+	20%{-moz-transform:rotate(15deg);}
+	50%{-moz-transform:rotate(-20deg);}
+	80%{-moz-transform:rotate(18deg);}
+	to{-moz-transform:rotate(0deg);}
+}
+@-webkit-keyframes shake
+{
+	from{-webkit-transform:rotate(0deg);}
+	20%{-webkit-transform:rotate(15deg);}
+	50%{-webkit-transform:rotate(-20deg);}
+	80%{-webkit-transform:rotate(18deg);}
+	to{-webkit-transform:rotate(0deg);}
+}
+@keyframes shake
+{
+	from{transform:rotate(0deg);}
+	20%{transform:rotate(15deg);}
+	50%{transform:rotate(-20deg);}
+	80%{transform:rotate(18deg);}
+	to{transform:rotate(0deg);}
+}
+#header a:hover{
+	text-decoration:none;
+	-moz-animation: shake 0.5s ease 0s 1 alternate;
+	-webkit-animation: shake 0.5s ease 0s 1 alternate;
+	animation: shake 0.5s ease 0s 1 alternate;
+}
+#footer{
+	width:100%;
+	position:fixed;
+	bottom:0px;
+	padding:10px 0 15px 0;
+	background:#FF9;
+	text-align:center;
+	display:block;
+}
+#content{
+	height:150px;
+	width:300px;
+	margin:60px auto 0 auto;
+	text-align:left;
+	-moz-box-shadow:1px 1px 3px rgba(0,51,51,1);
+	-webkit-box-shadow:1px 1px 3px rgba(0,51,51,1);
+	box-shadow:1px 1px 3px rgba(0,51,51,1);
+}
+#content p{
+	font-size: 1rem;
+	color: #333;
+	padding: 20px 0 10px 40px;
+}
+#clock{
+	height:300px;
+	width:300px;
+	margin:40px auto 0 auto;
+	background: url(../image/clock_back.jpg) no-repeat;
+}
+#clock div{
+	position:absolute;
+	width:15px;
+	height:300px;
+	margin-left:-7.5px;
+	left:50%;
+}
+#clock #hour{
+	background: url(../image/clock_hour.gif) no-repeat;
+}
+#clock #minute{
+	background: url(../image/clock_minute.gif) no-repeat;
+}
+#clock #second{
+	background: url(../image/clock_second.gif) no-repeat;
+}

@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>弹出广告demo2</title>
+<link rel="stylesheet" href="../css/ad2.css" />
+<script>
+	function closeAd(){
+	var _ad=document.getElementById("ad");
+	_ad.style.cssText="display:none;";
+	}
+	function popUp(){
+		window.open("the_ad.html");
+	}
+	</script>
+</head>
+
+<body>
+<p>点击右下方红叉关闭页内广告</p>
+<div id="ad" onClick="popUp()">
+<div id="close" onClick="closeAd()">
+</div>
+</div>
+</body>
+</html>

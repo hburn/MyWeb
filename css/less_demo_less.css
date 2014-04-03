@@ -1,0 +1,16 @@
+/* LESS Document */
+/*例子(1)*/
+p#box2 {
+  -moz-box-shadow: 2px 2px 3px #33ff00;
+  -webkit-box-shadow: 2px 2px 3px #33ff00;
+  box-shadow: 2px 2px 3px #33ff00;
+}
+/*例子(2)*/
+a#link2 {
+  color: blue;
+  text-decoration: none;
+}
+a#link2:hover {
+  color: red;
+  text-decoration: underline;
+}

@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wapper{
+	width:900px;
+	margin-top:80px;
+	margin-left:auto;
+	margin-right:auto;
+}
+p{
+	display:inline-block;
+	width:300px;
+	height:200px;
+	text-align:center;
+	border:solid;
+	margin:0 30px 0 30px;
+}
+nav{
+	margin-top: 100px;
+	text-align:center;
+}
+a{
+	padding:0 15px 0 15px;
+}
+
+/*例子(1)*/
+p#box1 { 
+ -moz-box-shadow: 2px 2px 3px #33FF00; 
+ -webkit-box-shadow: 2px 2px 3px #33FF00; 
+ box-shadow: 2px 2px 3px #33FF00; 
+ }
+/*例子(2)*/
+a#link1{
+color: blue;
+text-decoration: none;
+}
+a#link1:hover{
+color: red;
+text-decoration: underline;
+}
