@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+#wapper{
+	margin-left:200px;
+}
+#wapper h1{
+	margin-left:100px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size:40px;
+	line-height:60px;
+}

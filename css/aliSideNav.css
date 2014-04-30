@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+body,html{
+	text-align:center;
+}
+#content{
+	text-align:left;
+	margin:0px auto 0px auto;
+}
+*{
+	-moz-transition:all .3s;
+	-webkit-transition:all .3s;
+	transition:all .3s;
+}
+#content{
+	width:1000px;
+	font-size:128px;
+	font-weight:bold;
+}
+#firstScreen{ border:10px solid black;height:460px;}
+#firstF{ border:10px solid red;height:150px;}
+#secondF{ border:10px solid blue;height:250px;}
+#thirdF{ border:10px solid black;height:350px;}
+#fourthF{ border:10px solid green;height:250px;}
+#fifthF{ border:10px solid gray;height:650px;}
+#sixthF{ border:10px solid pink;height:550px;}
+#seventhF{ border:10px solid purple;height:350px;}
+#eighthF{ border:10px solid brown;height:850px;}
+#ninethF{ border:10px solid silver;height:450px;}
+#tenthF{ border:10px solid red;height:750px;}
+#eleventhF{ border:10px solid blue;height:450px;}
+#twelvethF{ border:10px solid grey;height:550px;}
+#thirteenthF{ border:10px solid black;height:450px;}
+#fourteenthF{ border:10px solid green;height:750px;}
+#fifteenthF{ border:10px solid silver;height:750px;}
+#sixteenthF{ border:10px solid brown;height:650px;}
+#seventeenthF{ border:10px solid green;height:250px;}
+#eighteenthF{ border:10px solid yellow;height:850px;}
+#nineteenthF{ border:10px solid purple;height:1050px;}
+
+#aliSideNav{
+	display:none;
+	position:fixed;
+	top:15px;
+	width:105px;
+}
+#sideNavPart1,#sideNavPart2{
+	background:#f5f5f5;
+}
+#sideNavTop{
+	width:105px;
+	height:18px;
+	cursor:pointer;
+	background:#FF7300 url(../image/alibaba.png) 47px -95px;
+}
+#sideNavBreak1{
+	width:80%;
+	height:1px;
+	margin-left:10%;
+	background: #E5E5E5;
+}
+#sideNavBottom{
+	width:105px;
+	height:11px;
+	cursor:pointer;
+	background:#FF7300 url(../image/alibaba.png) 50px -146px;
+}
+#sideNavBottom div{
+	width:105px;
+	height:3px;
+	background:#FF7300 url(../image/alibaba.png) 0px -567px;
+}
+#sideNavBreak2{
+	width:105px;
+	height:3px;
+	background:#FF7300 url(../image/alibaba.png) 0px -536px;
+}
+#sideNavPart3{
+	margin:0px 2px 0px 2px;
+	background:#FFF1E4; 
+}
+#aliSideNav ul li{
+	line-height:30px;
+	text-align:center;
+}
+#aliSideNav ul li a{
+	line-height:20px;
+	display:inline-block;
+}
+#aliSideNav ul li a p{
+	font-size:12px;
+	line-height:20px;
+	color:#888888;
+	display:inline-block;
+	width:60px;
+	padding: 0px 10px 0px 0px;
+	-webkit-border-radius:0px 10px 10px 0px;
+	-moz-border-radius:0px 10px 10px 0px;
+	border-radius:0px 10px 10px 0px;
+}
+#aliSideNav ul li a p.sideNavItemLeft{
+	width:22px;
+	padding: 0px 0px 0px 5px;
+	-webkit-border-radius:10px 0px 0px 10px;
+	-moz-border-radius:10px 0px 0px 10px;
+	border-radius:10px 0px 0px 10px;
+}
+#aliSideNav ul li a:hover p{
+	background:#888888;
+	color:white;
+}
+#aliSideNav ul li a.selected p{
+	background:#888888;
+	color:white;
+}

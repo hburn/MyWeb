@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	-moz-transition:all 1s;
+	-webkit-transition:all 1s;
+	transition:all 1s;
+}
+ul#nav{
+	width:720px;
+	margin:50px 0 0 100px;
+}
+ul li{
+	float:left;
+	width:120px;
+	text-align:center;
+	background:#096;
+}
+ul li:hover{
+	background:#0C6;
+}
+ul li ul{
+	display:none;
+}
+ul li a{
+	display:block;
+	width:120px;
+	padding:5px 0 4px 0;
+	border:1px white solid;
+	border-width:0 0 1px 1px;
+}
+ul li ul li{
+	background:#39F;
+}
+ul li ul li:hover{
+	background:#06C;
+}
+ul li:hover ul{
+	display:block;
+}
